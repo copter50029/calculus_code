@@ -5,17 +5,17 @@ from matplotlib import cm
 L = 1.0
 W = 1.0
 
-k = 15
+k = 10 # กราฟยกตัว
 Q_dot = 100000
 
 qf = 15
 h=100
 Tf = 30
 TL = 200
-TR = 100
+TR = 10
 
-nx = 20
-ny = 20
+nx = 25 #more detail
+ny = 25 #more detail
 dx = L/(nx-1)
 dy = W/(ny-1)
 
