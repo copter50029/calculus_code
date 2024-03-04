@@ -50,5 +50,5 @@ plt.xlabel('Distance [m]')
 plt.ylabel('Temperature [$\degree$ c')
 plt.legend([f't = {value} s' for value in t])
 plt.grid(color='grey', linestyle=':', linewidth=1.0, axis='x', alpha=0.5)
-plt.grid(color='grey', linestyle=':', linewidth=1.0, axis='x=y', alpha=0.5)
+plt.grid(color='grey', linestyle=':', linewidth=1.0, axis='y', alpha=0.5)
 plt.show
